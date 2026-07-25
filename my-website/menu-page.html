@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/menu-page.css">
+    <script src="https://kit.fontawesome.com/06fc48102f.js" crossorigin="anonymous"></script>
+    <title>4S Coffee Menu</title>
+</head>
+<body>
+
+<header class="topnav" data-sticky-at="300">
+    <a href="/my-website/index.html" class="brand-link">
+        <h1 class="logo">4<span>S</span></h1>
+    </a>
+
+    <ul class="topul">
+        <a href="/my-website/index.html"><li class="topli">HOME</li></a>
+        <a href="/my-website/menu-page.html"><li class="topli">MENU</li></a>
+        <a href="javascript:void(0)" class="cart-link" id="cartTrigger">
+            <img src="/images/shopping-cart-1136-svgrepo-com.svg" alt="Cart">
+            <span class="cart-badge">0</span>
+        </a>
+    </ul>
+
+    <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</header>
+
+<main class="menu-container">
+
+    <section class="menu-hero">
+        <div class="text-radius">Fresh picks from 4S Coffee</div>
+        <h1>Explore Our Menu</h1>
+        <p>Handcrafted drinks, fresh pastries, juicy burgers, comforting ramen, and more.</p>
+
+        <div class="menu-stats">
+            <div><strong>24+</strong><span>Menu Items</span></div>
+            <div><strong>5</strong><span>Categories</span></div>
+            <div><strong>Fresh</strong><span>Made Daily</span></div>
+        </div>
+    </section>
+
+    <section class="product-container">
+        <div class="bubble-one"></div>
+        <div class="bubble-two"></div>
+
+        <!-- DRINKS -->
+        <section class="menu-category">
+            <div class="category-header">
+                <div>
+                    <span class="section-kicker">Cool & Creamy</span>
+                    <h2>Signature Drinks</h2>
+                    <p>Refreshing handcrafted beverages with bold flavors.</p>
+                </div>
+
+                <div class="slider-controls">
+                    <button class="slider-btn slider-prev" type="button" aria-label="Previous drinks">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button class="slider-btn slider-next" type="button" aria-label="Next drinks">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="menu-slider">
+                <article class="cards">
+                    <span class="product-tag">Best Seller</span>
+                    <div class="image-container-card">
+                        <img src="/images/MENY/Drinks.png" alt="Oreo Frappe">
+                    </div>
+                    <div class="description-card">
+                        <h3>Oreo Frappe</h3>
+                        <p>Creamy Oreo frappe topped with whipped cream and cookie crumbs.</p>
+                        <div class="card-footer">
+                            <strong>$5.25</strong>
+                            <button type="button" class="menu-order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cards">
+                    <span class="product-tag new-tag">New</span>
+                    <div class="image-container-card">
+                        <img src="/images/MENY/Drinks.png" alt="Matcha Frappe">
+                    </div>
+                    <div class="description-card">
+                        <h3>Matcha Frappe</h3>
+                        <p>Smooth matcha blended with milk and ice for a refreshing finish.</p>
+                        <div class="card-footer">
+                            <strong>$5.50</strong>
+                            <button type="button" class="menu-order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cards">
+                    <div class="image-container-card">
+                        <img src="/images/MENY/Drinks.png" alt="Caramel Frappe">
+                    </div>
+                    <div class="description-card">
+                        <h3>Caramel Frappe</h3>
+                        <p>Sweet caramel, creamy milk, and whipped topping in every sip.</p>
+                        <div class="card-footer">
+                            <strong>$5.40</strong>
+                            <button type="button" class="menu-order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cards">
+                    <div class="image-container-card">
+                        <img src="/images/MENY/Drinks.png" alt="Mocha Frappe">
+                    </div>
+                    <div class="description-card">
+                        <h3>Mocha Frappe</h3>
+                        <p>A chocolate-coffee blend with a rich and creamy texture.</p>
+                        <div class="card-footer">
+                            <strong>$5.35</strong>
+                            <button type="button" class="menu-order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cards">
+                    <div class="image-container-card">
+                        <img src="/images/MENY/Drinks.png" alt="Iced Americano">
+                    </div>
+                    <div class="description-card">
+                        <h3>Iced Americano</h3>
+                        <p>Bold espresso poured over ice for a clean and refreshing coffee.</p>
+                        <div class="card-footer">
+                            <strong>$3.95</strong>
+                            <button type="button" class="menu-order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cards">
+                    <div class="image-container-card">
+                        <img src="/images/MENY/Drinks.png" alt="Strawberry Milk">
+                    </div>
+                    <div class="description-card">
+                        <h3>Strawberry Milk</h3>
+                        <p>Sweet strawberry flavor blended with chilled creamy milk.</p>
+                        <div class="card-footer">
+                            <strong>$4.25</strong>
+                            <button type="button" class="menu-order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- PASTRIES -->
+        <section class="menu-category">
+            <div class="category-header">
+                <div>
+                    <span class="section-kicker">Baked Fresh</span>
+                    <h2>Pastries</h2>
+                    <p>Buttery, soft, and perfect with your favorite drink.</p>
+                </div>
+
+                <div class="slider-controls">
+                    <button class="slider-btn slider-prev" type="button" aria-label="Previous pastries">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button class="slider-btn slider-next" type="button" aria-label="Next pastries">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="menu-slider">
+                <article class="cards">
+                    <span class="product-tag">Popular</span>
+                    <div class="image-container-card">
+                        <img src="/images/MENY/pastry.png" alt="Butter Croissant">
+                    </div>
+                    <div class="description-card">
+                        <h3>Butter Croissant</h3>
+                        <p>Flaky, golden, and baked fresh every morning.</p>
+                        <div class="card-footer">
+                            <strong>$3.50</strong>
+                            <button type="button" class="menu-order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cards">
+                    <div class="image-container-card">
+                        <img src="/images/MENY/pastry.png" alt="Cinnamon Roll">
+                    </div>
+                    <div class="description-card">
+                        <h3>Cinnamon Roll</h3>
+                        <p>Soft pastry swirled with cinnamon and topped with sweet glaze.</p>
+                        <div class="card-footer">
+                            <strong>$3.75</strong>
+                            <button type="button" class="menu-order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cards">
+                    <div class="image-container-card">
+                        <img src="/images/MENY/pastry.png" alt="Blueberry Muffin">
+                    </div>
+                    <div class="description-card">
+                        <h3>Blueberry Muffin</h3>
+                        <p>Soft muffin filled with juicy blueberries and a crumbly top.</p>
+                        <div class="card-footer">
+                            <strong>$3.25</strong>
+                            <button type="button" class="menu-order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cards">
+                    <div class="image-container-card">
+                        <img src="/images/MENY/pastry.png" alt="Chocolate Danish">
+                    </div>
+                    <div class="description-card">
+                        <h3>Chocolate Danish</h3>
+                        <p>Layered pastry filled with rich chocolate cream.</p>
+                        <div class="card-footer">
+                            <strong>$3.80</strong>
+                            <button type="button" class="menu-order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cards">
+                    <div class="image-container-card">
+                        <img src="/images/MENY/pastry.png" alt="Cheese Ensaymada">
+                    </div>
+                    <div class="description-card">
+                        <h3>Cheese Ensaymada</h3>
+                        <p>Soft buttery bread topped with sugar and grated cheese.</p>
+                        <div class="card-footer">
+                            <strong>$3.60</strong>
+                            <button type="button" class="menu-order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- BURGERS -->
+        <section class="menu-category">
+            <div class="category-header">
+                <div>
+                    <span class="section-kicker">Hot & Juicy</span>
+                    <h2>Burgers</h2>
+                    <p>Grilled favorites stacked with bold flavors.</p>
+                </div>
+
+                <div class="slider-controls">
+                    <button class="slider-btn slider-prev" type="button" aria-label="Previous burgers">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button class="slider-btn slider-next" type="button" aria-label="Next burgers">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="menu-slider">
+                <article class="cards">
+                    <span class="product-tag">Classic</span>
+                    <div class="image-container-card">
+                        <img src="/images/MENY/food.png" alt="Classic Cheeseburger">
+                    </div>
+                    <div class="description-card">
+                        <h3>Classic Cheeseburger</h3>
+                        <p>Beef patty, melted cheese, lettuce, tomato, and signature sauce.</p>
+                        <div class="card-footer">
+                            <strong>$6.50</strong>
+                            <button type="button" class="menu-order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cards">
+                    <span class="product-tag new-tag">New</span>
+                    <div class="image-container-card">
+                        <img src="/images/MENY/food.png" alt="Bacon Smash Burger">
+                    </div>
+                    <div class="description-card">
+                        <h3>Bacon Smash Burger</h3>
+                        <p>Smashed beef patty, crispy bacon, cheese, and smoky sauce.</p>
+                        <div class="card-footer">
+                            <strong>$7.95</strong>
+                            <button type="button" class="menu-order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cards">
+                    <div class="image-container-card">
+                        <img src="/images/MENY/food.png" alt="Chicken Burger">
+                    </div>
+                    <div class="description-card">
+                        <h3>Crispy Chicken Burger</h3>
+                        <p>Crispy chicken fillet with slaw and creamy garlic sauce.</p>
+                        <div class="card-footer">
+                            <strong>$7.25</strong>
+                            <button type="button" class="menu-order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cards">
+                    <div class="image-container-card">
+                        <img src="/images/MENY/food.png" alt="Veggie Burger">
+                    </div>
+                    <div class="description-card">
+                        <h3>Veggie Burger</h3>
+                        <p>Seasoned vegetable patty with fresh greens and tangy sauce.</p>
+                        <div class="card-footer">
+                            <strong>$6.95</strong>
+                            <button type="button" class="menu-order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cards">
+                    <div class="image-container-card">
+                        <img src="/images/MENY/food.png" alt="Double Cheese Burger">
+                    </div>
+                    <div class="description-card">
+                        <h3>Double Cheese Burger</h3>
+                        <p>Two beef patties, double cheese, onions, pickles, and sauce.</p>
+                        <div class="card-footer">
+                            <strong>$8.50</strong>
+                            <button type="button" class="menu-order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- RAMEN -->
+        <section class="menu-category">
+            <div class="category-header">
+                <div>
+                    <span class="section-kicker">Warm & Comforting</span>
+                    <h2>Ramen</h2>
+                    <p>Rich broths, tender noodles, and satisfying toppings.</p>
+                </div>
+
+                <div class="slider-controls">
+                    <button class="slider-btn slider-prev" type="button" aria-label="Previous ramen">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button class="slider-btn slider-next" type="button" aria-label="Next ramen">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="menu-slider">
+                <article class="cards">
+                    <span class="product-tag">Favorite</span>
+                    <div class="image-container-card">
+                        <img src="/images/MENY/39bd92e435dfc608fdf33d60ee673b74-removebg-preview.png" alt="Classic Shoyu Ramen">
+                    </div>
+                    <div class="description-card">
+                        <h3>Classic Shoyu Ramen</h3>
+                        <p>Savory soy broth with noodles, egg, vegetables, and sliced meat.</p>
+                        <div class="card-footer">
+                            <strong>$8.95</strong>
+                            <button type="button" class="menu-order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cards">
+                    <span class="product-tag spicy-tag">Spicy</span>
+                    <div class="image-container-card">
+                        <img src="/images/MENY/39bd92e435dfc608fdf33d60ee673b74-removebg-preview.png" alt="Spicy Miso Ramen">
+                    </div>
+                    <div class="description-card">
+                        <h3>Spicy Miso Ramen</h3>
+                        <p>Rich miso broth with chili, noodles, corn, egg, and spring onions.</p>
+                        <div class="card-footer">
+                            <strong>$9.25</strong>
+                            <button type="button" class="menu-order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cards">
+                    <div class="image-container-card">
+                        <img src="/images/MENY/39bd92e435dfc608fdf33d60ee673b74-removebg-preview.png" alt="Tonkotsu Ramen">
+                    </div>
+                    <div class="description-card">
+                        <h3>Tonkotsu Ramen</h3>
+                        <p>Creamy pork broth with noodles, egg, mushrooms, and green onions.</p>
+                        <div class="card-footer">
+                            <strong>$9.50</strong>
+                            <button type="button" class="menu-order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cards">
+                    <div class="image-container-card">
+                        <img src="/images/MENY/39bd92e435dfc608fdf33d60ee673b74-removebg-preview.png" alt="Chicken Ramen">
+                    </div>
+                    <div class="description-card">
+                        <h3>Chicken Ramen</h3>
+                        <p>Light chicken broth with tender chicken, noodles, and vegetables.</p>
+                        <div class="card-footer">
+                            <strong>$8.75</strong>
+                            <button type="button" class="menu-order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cards">
+                    <div class="image-container-card">
+                        <img src="/images/MENY/39bd92e435dfc608fdf33d60ee673b74-removebg-preview.png" alt="Vegetable Ramen">
+                    </div>
+                    <div class="description-card">
+                        <h3>Vegetable Ramen</h3>
+                        <p>Flavorful vegetable broth with noodles, tofu, corn, and greens.</p>
+                        <div class="card-footer">
+                            <strong>$8.25</strong>
+                            <button type="button" class="menu-order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- FOOD & SIDES -->
+        <section class="menu-category">
+            <div class="category-header">
+                <div>
+                    <span class="section-kicker">Quick Bites</span>
+                    <h2>Food & Sides</h2>
+                    <p>Easy snacks and savory extras for any time of day.</p>
+                </div>
+
+                <div class="slider-controls">
+                    <button class="slider-btn slider-prev" type="button" aria-label="Previous food items">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button class="slider-btn slider-next" type="button" aria-label="Next food items">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="menu-slider">
+                <article class="cards">
+                    <div class="image-container-card">
+                        <img src="/images/MENY/food.png" alt="Loaded Fries">
+                    </div>
+                    <div class="description-card">
+                        <h3>Loaded Fries</h3>
+                        <p>Crispy fries topped with cheese sauce, bacon, and spring onions.</p>
+                        <div class="card-footer">
+                            <strong>$4.95</strong>
+                            <button type="button" class="menu-order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cards">
+                    <div class="image-container-card">
+                        <img src="/images/MENY/food.png" alt="Chicken Tenders">
+                    </div>
+                    <div class="description-card">
+                        <h3>Chicken Tenders</h3>
+                        <p>Crispy chicken strips served with your choice of dipping sauce.</p>
+                        <div class="card-footer">
+                            <strong>$6.25</strong>
+                            <button type="button" class="menu-order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cards">
+                    <div class="image-container-card">
+                        <img src="/images/MENY/food.png" alt="Club Sandwich">
+                    </div>
+                    <div class="description-card">
+                        <h3>Club Sandwich</h3>
+                        <p>Layered chicken, bacon, lettuce, tomato, and creamy dressing.</p>
+                        <div class="card-footer">
+                            <strong>$6.75</strong>
+                            <button type="button" class="menu-order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cards">
+                    <div class="image-container-card">
+                        <img src="/images/MENY/food.png" alt="Nachos">
+                    </div>
+                    <div class="description-card">
+                        <h3>Cheesy Nachos</h3>
+                        <p>Corn chips covered with cheese sauce, salsa, and jalapeños.</p>
+                        <div class="card-footer">
+                            <strong>$5.25</strong>
+                            <button type="button" class="menu-order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cards">
+                    <div class="image-container-card">
+                        <img src="/images/MENY/food.png" alt="Onion Rings">
+                    </div>
+                    <div class="description-card">
+                        <h3>Crispy Onion Rings</h3>
+                        <p>Golden onion rings with a crunchy coating and dipping sauce.</p>
+                        <div class="card-footer">
+                            <strong>$4.50</strong>
+                            <button type="button" class="menu-order-btn">Order Now</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </section>
+</main>
+
+<!-- Checkout modal -->
+<div class="checkout-overlay" id="checkoutOverlay">
+    <div class="checkout-modal">
+        <button class="checkout-close" id="checkoutClose" aria-label="Close checkout">&times;</button>
+        <h2 class="checkout-title">Your Order</h2>
+        <div class="checkout-items" id="checkoutItems"></div>
+        <p class="checkout-empty" id="checkoutEmpty">Your cart is empty.</p>
+
+        <div class="checkout-total-row">
+            <span>Total</span>
+            <span id="checkoutTotal">$0.00</span>
+        </div>
+
+        <form class="checkout-form" id="checkoutForm">
+            <input type="text" placeholder="Full Name" required>
+            <input type="tel" placeholder="Phone Number" required>
+            <textarea placeholder="Pickup / Delivery Notes" rows="2"></textarea>
+            <button type="submit" class="checkout-submit-btn">Place Order</button>
+        </form>
+    </div>
+</div>
+
+<script src="/script/script.js"></script>
+<script src="/script/menu.js"></script>
+<script src="/script/menu-slider.js"></script>
+</body>
+</html>
