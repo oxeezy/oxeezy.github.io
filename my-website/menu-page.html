@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="stylesheet" href="/css/menu-page.css">
+
+    <link rel="stylesheet" href="/css/checkout.css">
+
+    <script
+        src="https://kit.fontawesome.com/06fc48102f.js"
+        crossorigin="anonymous">
+    </script>
+
+    <title>4S Coffee Menu</title>
+
+</head>
+
+
+<body>
+
+
+    <!-- ========================================
+         HEADER
+    ========================================= -->
+
+    <header class="topnav" data-sticky-at="300">
+
+        <a
+            href="/my-website/index.html"
+            class="brand-link">
+
+            <h1 class="logo">
+                4<span>S</span>
+            </h1>
+
+        </a>
+
+
+        <ul class="topul">
+
+            <a href="/my-website/index.html">
+                <li class="topli">
+                    HOME
+                </li>
+            </a>
+
+
+            <a href="/my-website/menu-page.html">
+                <li class="topli">
+                    MENU
+                </li>
+            </a>
+
+
+            <a
+                href="javascript:void(0)"
+                class="cart-link"
+                id="cartTrigger">
+
+                <img
+                    src="/images/shopping-cart-1136-svgrepo-com.svg"
+                    alt="Cart">
+
+                <span class="cart-badge">
+                    0
+                </span>
+
+            </a>
+
+        </ul>
+
+
+        <div class="hamburger">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ========================================
+         MAIN
+    ========================================= -->
+
+    <main class="menu-container">
+
+
+        <!-- ========================================
+             HERO
+        ========================================= -->
+
+        <section class="menu-hero">
+
+            <div class="text-radius">
+                Fresh picks from 4S Coffee
+            </div>
+
+
+            <h1>
+                Explore Our Menu
+            </h1>
+
+
+            <p>
+                Handcrafted drinks, fresh pastries,
+                juicy burgers, comforting ramen, and more.
+            </p>
+
+
+            <div class="menu-stats">
+
+                <div>
+
+                    <strong>
+                        24+
+                    </strong>
+
+                    <span>
+                        Menu Items
+                    </span>
+
+                </div>
+
+
+                <div>
+
+                    <strong>
+                        5
+                    </strong>
+
+                    <span>
+                        Categories
+                    </span>
+
+                </div>
+
+
+                <div>
+
+                    <strong>
+                        Fresh
+                    </strong>
+
+                    <span>
+                        Made Daily
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ========================================
+             PRODUCTS
+
+             JavaScript will generate:
+             - Categories
+             - Product cards
+             - Product names
+             - Prices
+             - Images
+             - Order buttons
+        ========================================= -->
+
+        <section class="product-container">
+
+            <div class="bubble-one"></div>
+
+            <div class="bubble-two"></div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- ========================================
+         CHECKOUT MODAL
+    ========================================= -->
+
+    <div
+        class="checkout-overlay"
+        id="checkoutOverlay">
+
+
+        <div class="checkout-modal">
+
+
+            <!-- CLOSE BUTTON -->
+
+            <button
+                class="checkout-close"
+                id="checkoutClose"
+                aria-label="Close checkout">
+
+                &times;
+
+            </button>
+
+
+
+            <!-- TITLE -->
+
+            <h2 class="checkout-title">
+
+                Your Order
+
+            </h2>
+
+
+
+            <!-- CART ITEMS -->
+
+            <div
+                class="checkout-items"
+                id="checkoutItems">
+            </div>
+
+
+
+            <!-- EMPTY CART MESSAGE -->
+
+            <p
+                class="checkout-empty"
+                id="checkoutEmpty">
+
+                Your cart is empty.
+
+            </p>
+
+
+
+            <!-- TOTAL -->
+
+            <div class="checkout-total-row">
+
+                <span>
+                    Total
+                </span>
+
+
+                <span id="checkoutTotal">
+
+                    $0.00
+
+                </span>
+
+            </div>
+
+
+
+            <!-- CHECKOUT FORM -->
+
+            <form
+                class="checkout-form"
+                id="checkoutForm">
+
+
+                <input
+                    type="text"
+                    placeholder="Full Name"
+                    required>
+
+
+                <input
+                    type="tel"
+                    placeholder="Phone Number"
+                    required>
+
+
+                <textarea
+                    placeholder="Pickup / Delivery Notes"
+                    rows="2">
+                </textarea>
+
+
+                <button
+                    type="submit"
+                    class="checkout-submit-btn">
+
+                    Place Order
+
+                </button>
+
+
+            </form>
+
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ========================================
+         JAVASCRIPT
+    ========================================= -->
+
+    <script src="/script/script.js"></script>
+
+    <script src="/script/menu.js"></script>
+
+    <script src="/script/menu-slider.js"></script>
+
+
+</body>
+
+</html>
